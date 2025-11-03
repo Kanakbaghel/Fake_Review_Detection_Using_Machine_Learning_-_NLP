@@ -1,0 +1,75 @@
+🔒 1. Fake Review Detection Using Machin
+
+📂 Project Requirements
+
+✅ Dataset:
+-Source: Yelp Open Dataset, Amazon Reviews (Kaggle)
+
+-Required Fields:
+
+ --Review Text
+
+ --User ID or Profile Info
+
+ --Review Rating
+
+ --Review Date
+
+ --Label: Fake or Genuine (if not available, create using heuristics or weak supervision)
+
+🛠 Tools & Tech:
+-Languages: Python
+
+-Libraries:
+
+ --pandas, numpy
+
+ --nltk, spacy, sklearn, xgboost
+
+ --matplotlib, seaborn
+
+ --Optional: transformers for BERT-based models
+
+📋 Tasks:
+Step 1: Data Preprocessing
+-Clean text data (remove stopwords, lemmatize, etc.)
+
+-Feature engineering:
+
+ --Review length
+
+ --Number of exclamations
+
+ --Caps-lock usage
+
+ --Review frequency per user
+
+-Label fake/genuine (manually or using heuristics)
+
+Step 2: Exploratory Data Analysis
+-Class distribution
+
+-Text sentiment vs review rating
+
+-Keyword usage in fake vs genuine reviews
+
+Step 3: Modeling
+-Convert text to features using:
+
+ --TF-IDF
+
+ --Word2Vec or BERT embeddings
+
+-Train classifiers:
+
+ --Logistic Regression, Random Forest, XGBoost
+
+-Evaluate with:
+
+ --Precision, Recall, F1-score
+
+ --Confusion matrix, ROC-AUCe Learning & NLP
+
+Step 4 (Optional): Deep Learning
+-Train a BERT classifier for improved accuracy
+
