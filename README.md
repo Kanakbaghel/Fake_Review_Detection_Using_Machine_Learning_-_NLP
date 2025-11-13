@@ -1,7 +1,3 @@
-# Fake_Review_Detection_Using_Machine_Learning_-_NLP
-TechNest Task 9 : TO BUILD A CLASSIFICATION MODEL TO DETECT FAKE OR SPAM REV
-
-
 # <p align='center'><font size=5>Fake Review Detection Using Machine Learning</font></p>
 -------
 <p align="center">
